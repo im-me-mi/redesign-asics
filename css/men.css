@@ -1,0 +1,126 @@
+
+main{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+aside{
+    width: 400px;
+    margin-left: 80px;
+}
+aside h1 a{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #00116e;
+
+}
+aside ul{
+    height: 250px;
+}
+aside ul li{
+    height: 30px;
+}
+aside ul li a{
+    color: #999;
+}
+.filter{
+    height: 200px;
+}
+.filter label{
+    line-height: 40px;
+}
+
+section{
+    width: 1350px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+.select_wrap{
+    width: 100px;
+    /* border: 1px solid red; */
+    float: right;
+    margin: 0 25px 10px 0;
+}
+select{
+    width: 90px;
+    margin-left: 5px;
+    border: 2px solid #00116e;
+    border-radius: 4px;
+    color: #00116e;
+}
+select>option{
+    border-radius: none;
+}
+.dp_wrap{
+    width: 100%;
+    height: 1590px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 100px;
+}
+/* .dp_load{
+    display: none;
+} */
+
+.dp_wrap .dp_img{
+    width: 430px;
+    height: 430px;
+    margin: 0 0 100px 10px;
+    border: 1px solid #ccc;
+}
+.dp_wrap .dp_img img{
+    width: 380px;
+    height: 380px;
+    display: block;
+    margin: 0 auto;
+}
+.prd_info{
+    width: 705px;
+    margin-top: 60px;
+    display: flex;
+}
+.prd_info p{
+    width: 500px;
+}
+.prd_info p a{
+    font-weight: 500;
+    color: #00116e;
+}
+.prd_info p:nth-child(2){
+    font-weight: 400;
+    color: #00116e;
+}
+.gender{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999
+}
+.more_btn_wrap{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border:0px solid #999;
+    box-shadow: 2px 2px 3px 2px #ccc;
+    margin-bottom: 100px;
+    z-index: 100;
+    position: sticky;
+    left: 650px;
+
+}
+.more_btn_wrap>button{
+    width: 50px;
+    height: 50px;
+    color: #999;
+    line-height: 45px;
+    font-size: 50px;
+    font-weight: 300;
+    border:0px solid #999;
+    background-color: transparent;
+    cursor: pointer;
+}

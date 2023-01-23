@@ -1,0 +1,20 @@
+#login_wrap{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+.login_inner{
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    
+}
+
+fieldset{
+    width: 300px;
+    height: 500px;
+}
+
+fieldset>div{
+    width: 200px;
+}
