@@ -4,7 +4,6 @@ $(function () {
       $(".dp_cate li a").removeClass("active");
     } else {
       $(".dp_cate li a").removeClass("active");
-
       $(this).addClass("active");
     }
     // let fontBold = $(this).css({ color: "#00116e", fontWeight: "500" });
